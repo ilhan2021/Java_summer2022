@@ -6,7 +6,7 @@ public class C01_DataCasting {
        // char yeniHarf = harf+1;     // kod bu durumda önce sağdaki işlemi yapar
                                     // char yeniHarf = 97 + 1------>98
                                     // char bir variable 98 olmayacağı için java hata verir
-        char yeniHarf = (char)(harf+1);
+        char yeniHarf  = (char)(harf+1);
         System.out.println("yeniHarf = " + yeniHarf); //
         /*
         Bazen bir variable'a oluşturulduğu data turu dısında değer atanabilir
