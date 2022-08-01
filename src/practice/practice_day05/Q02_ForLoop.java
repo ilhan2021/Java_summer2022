@@ -1,0 +1,28 @@
+package practice.practice_day05;
+
+import java.util.Scanner;
+
+public class Q02_ForLoop {
+    /*    Kullanıcıdan 1'den büyük bir tam sayı girmesini isteyin
+	        ve 1'den girilen tam sayıya kadar olan sayıların karelerinin toplamını
+	        hesaplayan kodu yazınız.
+	        Örnek Ekran Çıktısı
+	        Girilen sayı=4
+	        Kareler toplamı=14
+	     */
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Lütfen Birden Büyük Bir Tamsayi Giriniz");
+        int sayi = scan.nextInt();
+
+        int karelertoplami = 0;
+
+        for (int i = 1; i < sayi ; i++) {
+            karelertoplami +=(i*i);
+
+        }
+        System.out.println("sayilarin kareleri toplami :"+ karelertoplami);
+
+
+    }
+}
