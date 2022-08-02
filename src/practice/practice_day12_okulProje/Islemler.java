@@ -60,6 +60,58 @@ public class Islemler {
         switch(secilenIslem){
             case 1:
                 ekle();
+                islemMenusu();
+                break;
+            case 2:
+                //arama();
+                islemMenusu();
+                break;
+            case 3:
+                //listeleme();
+                islemMenusu();
+                break;
+            case 4:
+                //silme();
+                islemMenusu();
+                break;
+            case 5:
+                //girisPaneli();
+                break;
+            case 0:
+                //cikis();
+                break;
+            default:
+                System.out.println("guzel birseygirelim");
+                islemMenusu();
         }
+    }
+
+    private static void ekle() {
+        System.out.println("**** "+ kisiTuru + " ekleme sayfasina hos geldiniz.");
+        System.out.println("isim soyisim giriniz");
+        String adSoyad = scan.nextLine();
+        scan.nextLine();
+
+
+
+        System.out.println("kimlik numarsı giriniz");
+        String kimlikNo = scan.nextLine();
+
+        System.out.println("yasinizi giriniz");
+        int yas = scan.nextInt();
+        if (kisiTuru.equals("OGRENCI")){//
+
+
+        }else{
+            System.out.println("bolum giriniz: ");
+            String bolum = scan.nextLine();
+            scan.nextLine();
+            System.out.println("sicil no giriniz: ");
+            String sicilNo = scan.nextLine();
+            Ogretmen ogretmen= new Ogretmen(adSoyad, kimlikNo, yas, bolum,sicilNo);
+            ogretmenList.add(ogretmen);
+            System.out.println(ogretmenList);
+        }
+
     }
 }
