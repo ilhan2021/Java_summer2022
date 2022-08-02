@@ -47,14 +47,19 @@ public class Islemler {
     }
 
     private static void islemMenusu() {
-        System.out.println("Sectigim kisi turu "+kisiTuru+ " lutfen asagıdaki islemleri seciniz:");
+        System.out.println("Sectigim kisi turu "+kisiTuru+ " icin lutfen asagıdaki islemleri seciniz:");
         System.out.println("============= İŞLEMLER =============\n" +
                 "         1-EKLEME\n" +
                 "         2-ARAMA\n" +
                 "         3-LİSTELEME\n" +
                 "         4-SİLME\n" +
                 "         5-ANA MENÜ\n" +
-                "         Q-ÇIKIŞ");
-
+                "         0-ÇIKIŞ");
+        System.out.println("islem tercihinizi giriniz:");
+        int secilenIslem = scan.nextInt();
+        switch(secilenIslem){
+            case 1:
+                ekle();
+        }
     }
 }
