@@ -5,49 +5,41 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Islemler {
-
-    static List<Kisi> ogretmenList = new ArrayList<>();
-    static List<Kisi> ogrenciList = new ArrayList<>();
+    static List<Kisi> ogrtmnList = new ArrayList<>();
+    static List<Kisi> ogrncList = new ArrayList<>();
     static Scanner scan = new Scanner(System.in);
     static String kisiTuru;
 
-    //!!!!!!!!!!!!!!
-    //!!!!!!!!!!!!!!!!
-
-    public static void girisPaneli(){
-        System.out.println("===============================");
-        System.out.println("ÖĞRENCİ VE ÖĞRETMEN YONETİM PANELİ");
-        System.out.println("===============================");
-        System.out.println("1- OGRENCI ISLEMLERİ");
-        System.out.println("2- OGRETMEN ISLEMLERİ");
-        System.out.println("Q- CIKIS");
-
-        String secim = scan.nextLine().toUpperCase();//kontrol buyuk harfle olacak
-
-        switch(secim){
+    //static yazmamizin sebebi tum methodlardan ulasamk icin gokte ki ay
+    //gokteki ay gibi heryeden ulaşılabilsin
+    public static void girisPaneli() {
+        System.out.println("====================================");
+        System.out.println("ÖĞRENCİ VE ÖĞRETMEN YÖNETİM PANELİ");
+        System.out.println("====================================");
+        System.out.println("1- ÖĞRENCİ İŞLEMLERİ");
+        System.out.println("2- ÖĞRETMEN İŞLEMLERİ");
+        System.out.println("Q- ÇIKIŞ");
+        String secim = scan.next().toUpperCase();//kullanici kucuk harf girse bile buyuk harfe cevirdik cunku kontrol buyuk harfle yapcaz
+        switch (secim) {
             case "1":
-                kisiTuru="OGRENCI";
-
+                kisiTuru = "OGRENCI";
+                islemMenusu();
                 break;
             case "2":
+                kisiTuru = "OGRETMEN";
                 islemMenusu();
-                kisiTuru="OGRETMEN";
-
-
                 break;
             case "Q":
-
                 break;
             default:
-                System.out.println("Hatali Gris");
+                System.out.println("hatali giris :(");
                 girisPaneli();
                 break;
-
         }
     }
 
     private static void islemMenusu() {
-        System.out.println("Sectigim kisi turu "+kisiTuru+ " icin lutfen asagıdaki islemleri seciniz:");
+        System.out.println("sectigin kisi turu  " + kisiTuru + "  lutfen asagidaki islmleri seciniz");
         System.out.println("============= İŞLEMLER =============\n" +
                 "         1-EKLEME\n" +
                 "         2-ARAMA\n" +
@@ -55,11 +47,11 @@ public class Islemler {
                 "         4-SİLME\n" +
                 "         5-ANA MENÜ\n" +
                 "         0-ÇIKIŞ");
-        System.out.println("islem tercihinizi giriniz:");
+        System.out.println("islem tercihinizi giriniz: ");
         int secilenIslem = scan.nextInt();
-        switch(secilenIslem){
+        switch (secilenIslem) {
             case 1:
-                ekle();
+                //ekle();
                 islemMenusu();
                 break;
             case 2:
@@ -67,7 +59,7 @@ public class Islemler {
                 islemMenusu();
                 break;
             case 3:
-                //listeleme();
+                listeleme();
                 islemMenusu();
                 break;
             case 4:
@@ -75,43 +67,71 @@ public class Islemler {
                 islemMenusu();
                 break;
             case 5:
-                //girisPaneli();
+                girisPaneli();//yani ana menu
                 break;
             case 0:
                 //cikis();
                 break;
             default:
-                System.out.println("guzel birseygirelim");
+                System.out.println("guzel birsey gir");
                 islemMenusu();
+                break;
         }
     }
 
-    private static void ekle() {
-        System.out.println("**** "+ kisiTuru + " ekleme sayfasina hos geldiniz.");
-        System.out.println("isim soyisim giriniz");
-        String adSoyad = scan.nextLine();
-        scan.nextLine();
+    private static void listeleme() {
+        if (kisiTuru.equals("OGRENCI")) {
+        }
 
-
-
-        System.out.println("kimlik numarsı giriniz");
-        String kimlikNo = scan.nextLine();
-
-        System.out.println("yasinizi giriniz");
-        int yas = scan.nextInt();
-        if (kisiTuru.equals("OGRENCI")){//
-
-
-        }else{
-            System.out.println("bolum giriniz: ");
-            String bolum = scan.nextLine();
+        //private static void arama () {
+            System.out.println("arama** menusundesiniz.Aramak istediğiniz kişinin adını giriniz");
+            System.out.println("Kisi turu seciniz :");
             scan.nextLine();
-            System.out.println("sicil no giriniz: ");
-            String sicilNo = scan.nextLine();
-            Ogretmen ogretmen= new Ogretmen(adSoyad, kimlikNo, yas, bolum,sicilNo);
-            ogretmenList.add(ogretmen);
-            System.out.println(ogretmenList);
-        }
+            String isim = scan.nextLine();
+            if (kisiTuru.equalsIgnoreCase("")) {
 
+                for (int i = 0; i < ogrncList.size(); i++) {
+                    if (ogrncList.get(i).getAdSoyad().contains(isim)) {
+                        System.out.println(ogrncList.get(i));// bu satir calismazsa toString() dene
+                        //  System.out.println(.toString());
+                    }
+                }
+            } else {
+                for (int i = 0; i < ogrtmnList.size(); i++) {
+                    if (ogrtmnList.get(i).getAdSoyad().contains(isim)) {
+                        System.out.println(ogrtmnList.get(i));
+                    }
+                }
+            }
+        }
+        private static void ekle () {//bu method hem ogrenci hem de ogretmen eklemek icin tasarlandi
+            System.out.println("**** " + kisiTuru + " ekleme sayfasina hosgeldin");
+            System.out.println("isim soyisim gir");
+            String adSoyad = scan.nextLine();
+            scan.nextLine();
+            System.out.println("kimlik gir");
+            String kimlikNo = scan.nextLine();
+            System.out.println("yas gir");
+            int yas = scan.nextInt();
+
+            if (kisiTuru.equals("OGRENCI")) {                    //önce olustur sonra doldur
+                System.out.println("ogrenci no gir");
+                String ogrenciNo = scan.nextLine();
+                scan.nextLine();//dummy6 kod hata almamak icin
+                System.out.println("sinif gir");
+                String sinif = scan.nextLine();
+                Ogrenci ogrenci = new Ogrenci(adSoyad, kimlikNo, yas, ogrenciNo, sinif);
+                ogrncList.add(ogrenci);
+                System.out.println(ogrncList);
+            } else {
+                System.out.println("bolum gir");
+                String bolum = scan.nextLine();
+                scan.nextLine();//dummy6 kod hata almamak icin
+                System.out.println("sicil no gir");
+                String sicilNo = scan.nextLine();
+                Ogretmen ogretmen = new Ogretmen(adSoyad, kimlikNo, yas, bolum, sicilNo);
+                ogrtmnList.add(ogretmen);
+                System.out.println(ogrtmnList);
+            }
+        }
     }
-}
