@@ -2,7 +2,6 @@ package day31_48.day38_exception;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
 public class C03_Exceptions {
     public static void main(String[] args) {
         /*
@@ -12,20 +11,19 @@ public class C03_Exceptions {
           Kullanici urun sayisindan buyuk bir index girerse
           exception vermesinin onune gecelim
          */
-        String[] urunler = {"Nutella", "Cokokrem", "Sut", "Cay", "Findik"};
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Istediginiz urunun sira nosunu giriniz");
-        int istenenSira = 0;
-        boolean kontrol = true;
-
-        while (kontrol) {
+        String[] urunler={"Nutella","Cokokrem","Sut","Cay","Findik"};
+        Scanner scan;
+        int istenenSira=0;
+        boolean kontrol=true;
+        while(kontrol){
             try {
-                istenenSira = scan.nextInt();
+                scan= new Scanner(System.in);
+                System.out.println("Istediginiz urunun sira nosunu giriniz");
+                istenenSira =scan.nextInt();
+                kontrol=false;
             } catch (InputMismatchException deneme) {
                 System.out.println("Urun indexi icin bir tam sayi girmeniz gerekli");
-                System.out.println(deneme);
             }
-
         }
         /*
          catch blogunun onundeki parantezde
@@ -38,10 +36,10 @@ public class C03_Exceptions {
          e kullanilmasa da kod calisir
          */
         try {
-            System.out.println("Aradiginiz urun : " + urunler[istenenSira - 1]);
+            System.out.println("Aradiginiz urun : " + urunler[istenenSira-1] );
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Girdiginiz sira listemizde bulunmuyor" +
-                    "\nSira numarasi en fazla : " + urunler.length + " olabilir");
+                    "\nSira numarasi en fazla : " + urunler.length  + " olabilir" );
         }
     }
 }
