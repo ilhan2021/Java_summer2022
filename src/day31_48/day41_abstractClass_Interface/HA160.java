@@ -1,7 +1,5 @@
-package day31_48.day_41abstractClass_Interface;
+package day31_48.day41_abstractClass_Interface;
 
-import java.util.ArrayList;
-import java.util.List;
 public class HA160 extends FMercedes {
     /*
       Abstract parent silsilesinden gelen

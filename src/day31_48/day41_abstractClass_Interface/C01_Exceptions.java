@@ -1,4 +1,4 @@
-package day31_48.day_41abstractClass_Interface;
+package day31_48.day41_abstractClass_Interface;
 
 public class C01_Exceptions {
     public static void main(String[] args) {

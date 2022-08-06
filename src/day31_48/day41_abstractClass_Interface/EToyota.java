@@ -1,4 +1,4 @@
-package day31_48.day_41abstractClass_Interface;
+package day31_48.day41_abstractClass_Interface;
 
 
 public abstract class EToyota extends DAraba{
