@@ -1,8 +1,6 @@
 package day31_48.day47_maps;
 
 import day31_48.day46_maps.ReusableMethods;
-import java.util.Map;
-import java.util.Set;
 
 import java.util.Collection;
 import java.util.HashMap;

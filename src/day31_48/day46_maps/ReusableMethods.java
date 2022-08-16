@@ -1,5 +1,4 @@
 package day31_48.day46_maps;
-
 import java.util.*;
 public class ReusableMethods {
     public static Map<Integer,String> mapOlustur(){
@@ -52,6 +51,13 @@ public class ReusableMethods {
             }
         }
         System.out.println(bransOgrSayiMap);
+    }
+    public static void entryYazdir(Map<Integer, String> sinifListMap) {
+        Set<Map.Entry<Integer,String>> sinifListEntrySeti= sinifListMap.entrySet();
+        for (Map.Entry<Integer,String> entry: sinifListEntrySeti
+        ) {
+            System.out.println(entry);
+        }
     }
 }
 
