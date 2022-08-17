@@ -1,4 +1,4 @@
-package lamda_functional_programing01;
+package lambda_functional_programing01;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -82,10 +82,10 @@ public class Fp01 {
 
     public static void tekElemanlarinKareleriniYazdir(List<Integer> list){
         list.stream().filter(t->t%2!=0).map(t->t*t).forEach(t-> System.out.print(t+ " "));
-        //elemanların değerleri değişecekse map() methodu kullanılır.
+        //Elemanların değerleri değişecekse map() methodu kullanılır.
     }
     ///4) Ardışık tek list elementlerinin küplerini tekrarsız olarak aynı satırda aralarında
-    // boşluk bırakarak yazdıran bir method oluşturun.
+    // Boşluk bırakarak yazdıran bir method oluşturun.
     public static void tekrarsizTekElemanlarinKupunuYazdir(List<Integer> list) {
         list.stream().distinct().filter(t ->t%2!=0).map(t->t*t*t).forEach(t-> System.out.print(t+ " "));
     }

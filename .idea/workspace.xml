@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de681e0d-1d89-481b-8cc0-585d1cb4e24d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/day31_48/day48_maps_TheEnd/C01_NestedMaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day31_48/day48_maps_TheEnd/C01_NestedMaps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day31_48/day48_maps_TheEnd/C02_MapMethodlari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day31_48/day48_maps_TheEnd/C02_MapMethodlari.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day31_48/day48_maps_TheEnd/C03_Compute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day31_48/day48_maps_TheEnd/C03_Compute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lamda_functional_programing01/Fp01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lamda_functional_programing01/Fp01.java" afterDir="false" />
-    </list>
+    <list default="true" id="de681e0d-1d89-481b-8cc0-585d1cb4e24d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
