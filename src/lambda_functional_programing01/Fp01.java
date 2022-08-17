@@ -89,7 +89,7 @@ public class Fp01 {
     public static void tekrarsizTekElemanlarinKupunuYazdir(List<Integer> list) {
         list.stream().distinct().filter(t ->t%2!=0).map(t->t*t*t).forEach(t-> System.out.print(t+ " "));
     }
-    //5) Tekrarsız çift elementlerin karelerinin toplamını hesaplayan bir method oluşturun.
+    //5) Tekrarsız cift elementlerin karelerinin toplamını hesaplayan bir method oluşturun.
 
     public static void tekrarsizCiftElemanlarinKareToplami(List<Integer> list){
         Integer toplam =list.stream().distinct().filter(t ->t%2==0).map(t->t*t).reduce(0,(t,u)->t+u);

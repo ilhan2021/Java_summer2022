@@ -84,7 +84,7 @@
       <recent name="day29_passByValue_immutable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fp01">
+  <component name="RunManager" selected="Application.lambda_functional_programing01.Fp01">
     <configuration name="C02_MapsMethodIle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day31_48.day46_maps.C02_MapsMethodIle" />
       <module name="Java_summer2022" />
@@ -138,11 +138,11 @@
       </method>
     </configuration>
     <configuration name="Fp01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lamda_functional_programing01.Fp01" />
+      <option name="MAIN_CLASS_NAME" value="lambda_functional_programing01.Fp01" />
       <module name="Java_summer2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lamda_functional_programing01.*" />
+          <option name="PATTERN" value="lambda_functional_programing01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,7 +152,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Fp01" />
+        <item itemvalue="Application.lambda_functional_programing01.Fp01" />
         <item itemvalue="Application.C04_Entry" />
         <item itemvalue="Application.C03_Update" />
         <item itemvalue="Application.C02_TekrarSayisiBulma" />
