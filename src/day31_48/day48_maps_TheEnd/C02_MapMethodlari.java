@@ -1,4 +1,4 @@
-package day48_maps_TheEnd;
+package day31_48.day48_maps_TheEnd;
 
 import day31_48.day46_maps.ReusableMethods;
 
@@ -31,7 +31,7 @@ public class C02_MapMethodlari {
          */
         System.out.println(sinifListMap.putIfAbsent(106,"Mevlut, Han, Tester"));
         // Taha, Deniz, JDev
-        if (sinifListMap.putIfAbsent(106,"Mevlut, Han, Tester")==null){
+        if (sinifListMap.putIfAbsent(106,"Mevlut, Han, Tester") == null){
             System.out.println("Kayit basarili");
         } else{
             System.out.println("eski degeri degistirmek istediginizden emin misiniz ?");

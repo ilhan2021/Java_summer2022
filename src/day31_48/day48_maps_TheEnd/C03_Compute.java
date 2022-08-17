@@ -1,4 +1,4 @@
-package day48_maps_TheEnd;
+package day31_48.day48_maps_TheEnd;
 
 import java.util.HashMap;
 import java.util.Map;

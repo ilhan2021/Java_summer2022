@@ -1,4 +1,4 @@
-package day48_maps_TheEnd;
+package day31_48.day48_maps_TheEnd;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -27,7 +27,7 @@ public class C01_NestedMaps {
         ogr103.put("isim","Derya");
         ogr103.put("soyisim","Deniz");
         ogr103.put("brans","Devops");
-        Map<Integer,Map<String,String>>  ogrenciNestedMap= new HashMap<>();
+        Map<Integer,Map<String,String>>  ogrenciNestedMap = new HashMap<>();
         ogrenciNestedMap.put(101,ogr101);
         ogrenciNestedMap.put(102,ogr102);
         ogrenciNestedMap.put(103,ogr103);
