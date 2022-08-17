@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de681e0d-1d89-481b-8cc0-585d1cb4e24d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/day31_48/day48_maps_TheEnd/C01_NestedMaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day31_48/day48_maps_TheEnd/C01_NestedMaps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day31_48/day48_maps_TheEnd/C02_MapMethodlari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day31_48/day48_maps_TheEnd/C02_MapMethodlari.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day31_48/day48_maps_TheEnd/C03_Compute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day31_48/day48_maps_TheEnd/C03_Compute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lamda_functional_programing01/Fp01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lamda_functional_programing01/Fp01.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../Java_summer2022\exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Kotlin File" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk-11.0.15/lib/src.zip!/java.base/java/lang/NumberFormatException.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2AZtOiLUcbc0bnTUoi8OAC2wWbY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hamza/IdeaProjects/Java_summer2022&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="practice.practice_day13interviewQuestions" />
+      <recent name="alıstırmalar" />
+      <recent name="ocaSorular" />
+      <recent name="day25_constructor" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hamza\IdeaProjects\Java_summer2022\src\day07_ifStatements" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Hamza\IdeaProjects\Java_summer2022\src\ocaSorular" />
+      <recent name="C:\Users\Hamza\IdeaProjects\Java_summer2022\src\C01_ocaSorular" />
+      <recent name="C:\Users\Hamza\IdeaProjects\Java_summer2022\src\dev_requarment" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="day31_48.day43_interfaces_iterators" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="day29_passByValue_immutable" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Fp01">
+    <configuration name="C02_MapsMethodIle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day31_48.day46_maps.C02_MapsMethodIle" />
+      <module name="Java_summer2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day31_48.day46_maps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C02_TekrarSayisiBulma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day31_48.day47_maps.C02_TekrarSayisiBulma" />
+      <module name="Java_summer2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day31_48.day47_maps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_Update" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day31_48.day47_maps.C03_Update" />
+      <module name="Java_summer2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day31_48.day47_maps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_Entry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day31_48.day47_maps.C04_Entry" />
+      <module name="Java_summer2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day31_48.day47_maps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fp01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lamda_functional_programing01.Fp01" />
+      <module name="Java_summer2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lamda_functional_programing01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Fp01" />
+        <item itemvalue="Application.C04_Entry" />
+        <item itemvalue="Application.C03_Update" />
+        <item itemvalue="Application.C02_TekrarSayisiBulma" />
+        <item itemvalue="Application.C02_MapsMethodIle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de681e0d-1d89-481b-8cc0-585d1cb4e24d" name="Changes" comment="" />
+      <created>1655228912128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655228912128</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Java alıstirmalar">
+      <created>1659395950292</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659395950292</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Java Dersler day01-30">
+      <created>1659396527223</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659396527223</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Java Dersler day01-30">
+      <created>1659396613239</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659396613239</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Java alistirmalar">
+      <created>1659396849826</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659396849826</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Java alistirmalar">
+      <created>1659397208269</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659397208269</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Java alistirmalar">
+      <created>1659397260142</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659397260142</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Java alistirmalar">
+      <created>1659397485190</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659397485190</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Java okulproje">
+      <created>1659450719401</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659450719401</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Java okulproje">
+      <created>1659451329062</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1659451329062</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Java okulproje">
+      <created>1659451462347</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1659451462347</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Java okulproje">
+      <created>1659451473422</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659451473422</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Java okulproje">
+      <created>1659452692390</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659452692390</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Java okulproje">
+      <created>1659452705407</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659452705407</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Java okulproje">
+      <created>1659452878665</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659452878665</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Java okulproje">
+      <created>1659459460620</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1659459460620</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Java okulproje">
+      <created>1659459696340</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1659459696340</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Java okulproje">
+      <created>1659460031974</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1659460031974</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Java Dersler">
+      <created>1659477136201</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1659477136201</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Java okulproje">
+      <created>1659477159580</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1659477159580</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Java dersleri">
+      <created>1659477213275</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1659477213275</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Java dersleri">
+      <created>1659552205912</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1659552205912</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Java dersleri">
+      <created>1659552721132</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659552721132</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Java dersleri">
+      <created>1659649904450</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1659649904450</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Java dersleri">
+      <created>1659649949889</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1659649949889</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Java ders not">
+      <created>1659650283141</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1659650283141</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Java ders notlari">
+      <created>1659725995857</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1659725995857</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Java kisa yollar">
+      <created>1659726031732</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1659726031732</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Java ders not">
+      <created>1659732414258</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1659732414258</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Java ders notlari">
+      <created>1659733258045</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1659733258045</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Java ders notlari">
+      <created>1659733673131</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1659733673131</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Java ders notlari">
+      <created>1659802701608</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1659802701608</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Java ders notlari">
+      <created>1659811618047</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1659811618047</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Java ders notlari">
+      <created>1660071228908</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1660071228908</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Java ders notlari">
+      <created>1660163243414</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1660163243414</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Java ders notlari">
+      <created>1660336662276</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1660336662276</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Java ders notlari">
+      <created>1660678761614</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1660678761614</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Java alıstirmalar" />
+    <MESSAGE value="Java Dersler day01-30" />
+    <MESSAGE value="Java alistirmalar" />
+    <MESSAGE value="Java Dersler" />
+    <MESSAGE value="Java okulproje" />
+    <MESSAGE value="Java dersleri" />
+    <MESSAGE value="Java kisa yollar" />
+    <MESSAGE value="Java ders not" />
+    <MESSAGE value="Java ders notlari" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java ders notlari" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

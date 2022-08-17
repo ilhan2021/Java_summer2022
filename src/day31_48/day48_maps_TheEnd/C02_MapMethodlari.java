@@ -32,7 +32,7 @@ public class C02_MapMethodlari {
         System.out.println(sinifListMap.putIfAbsent(106,"Mevlut, Han, Tester"));
         // Taha, Deniz, JDev
         if (sinifListMap.putIfAbsent(106,"Mevlut, Han, Tester") == null){
-            System.out.println("Kayit basarili");
+            System.out.println("Kayit Basarili");
         } else{
             System.out.println("eski degeri degistirmek istediginizden emin misiniz ?");
         }
