@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de681e0d-1d89-481b-8cc0-585d1cb4e24d" name="Changes" comment="" />
+    <list default="true" id="de681e0d-1d89-481b-8cc0-585d1cb4e24d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lambda_functional_programing01/Fp02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_functional_programing01/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_summer2022/day31_48/day48_maps_TheEnd/C02_MapMethodlari.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_summer2022/day31_48/day48_maps_TheEnd/C02_MapMethodlari.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_summer2022/lamda_functional_programing01/Fp01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda_functional_programing01/Fp01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_functional_programing01/Fp01.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +91,7 @@
       <recent name="day29_passByValue_immutable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lambda_functional_programing01.Fp01">
+  <component name="RunManager" selected="Application.Fp02">
     <configuration name="C02_MapsMethodIle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day31_48.day46_maps.C02_MapsMethodIle" />
       <module name="Java_summer2022" />
@@ -137,8 +144,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Fp01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda_functional_programing01.Fp01" />
+    <configuration name="Fp02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda_functional_programing01.Fp02" />
       <module name="Java_summer2022" />
       <extension name="coverage">
         <pattern>
@@ -152,7 +159,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lambda_functional_programing01.Fp01" />
+        <item itemvalue="Application.Fp02" />
         <item itemvalue="Application.C04_Entry" />
         <item itemvalue="Application.C03_Update" />
         <item itemvalue="Application.C02_TekrarSayisiBulma" />
