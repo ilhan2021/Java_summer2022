@@ -36,6 +36,9 @@ public class Fp03 {
         //baslangiciAYadaNOlaniSil02(liste);
         System.out.println();
         uzunlugu8Ile10ArasiVeOIleBiteniSil(liste);
+        System.out.println("uzunlugu12denAzMi :"+uzunlugu12denAzMi(liste));
+        System.out.println("xIleBaslamiyorDiMi(liste) = " + xIleBaslamiyorDiMi(liste));
+        System.out.println("rIleBitenVarMi(liste) = " + rIleBitenVarMi(liste));
 
     }
     // 1) Tüm Elemanları buyuk harfle yazdiran bir method oluşturun.
@@ -91,6 +94,20 @@ public class Fp03 {
     public static void uzunlugu8Ile10ArasiVeOIleBiteniSil(List<String> list){
         list.removeIf(t->(t.length()>7 && t.length()<11) || t.endsWith("o"));
         System.out.println(list);
+    }
+    //9) Tüm elemanların uzunluklarının 12'den az olup olmadığını kontrol eden bir method oluşturun.
+
+    public static boolean uzunlugu12denAzMi(List<String> list){
+        return list.stream().allMatch(t->t.length()<12);
+    }
+    //10) Hiçbir elemanın 'X' ile başlamadığını kontrol eden bir method oluşturun.
+
+    public static boolean xIleBaslamiyorDiMi(List<String> list){
+        return list.stream().noneMatch(t->t.startsWith("X"));
+    }
+    //11) Herhangi bir elemanın 'r' ile bitip bitmediğini kontrol eden bir method oluşturun.
+    public static boolean rIleBitenVarMi(List<String> list){
+        return list.stream().anyMatch(t->t.endsWith("r"));
     }
 
 }
