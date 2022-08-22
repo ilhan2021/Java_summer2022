@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de681e0d-1d89-481b-8cc0-585d1cb4e24d" name="Changes" comment="Java ders notlari">
-      <change afterPath="$PROJECT_DIR$/src/lambda_functional_programing01/Courses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda_functional_programing01/Fp04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda_functional_programing01/Fp05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_functional_programing01/lambda_practice/Lambda01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_functional_programing01/lambda_practice/Methodlarim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_functional_programing01/lambda_practice/Runner01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_summer2022/lambda_functional_programing01/Fp01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_summer2022/lambda_functional_programing01/Fp01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_summer2022/lambda_functional_programing01/Fp02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_summer2022/lambda_functional_programing01/Fp02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_summer2022/lambda_functional_programing01/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_summer2022/lambda_functional_programing01/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda_functional_programing01/Fp03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_functional_programing01/Fp03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lambda_functional_programing01/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_functional_programing01/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,20 +89,7 @@
       <recent name="day29_passByValue_immutable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fp05">
-    <configuration name="C04_Entry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day31_48.day47_maps.C04_Entry" />
-      <module name="Java_summer2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day31_48.day47_maps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Runner01">
     <configuration name="Fp02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda_functional_programing01.Fp02" />
       <module name="Java_summer2022" />
@@ -160,13 +142,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Runner01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambda_functional_programing01.lambda_practice.Runner01" />
+      <module name="Java_summer2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda_functional_programing01.lambda_practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner01" />
         <item itemvalue="Application.Fp05" />
         <item itemvalue="Application.Fp04" />
         <item itemvalue="Application.Fp03" />
         <item itemvalue="Application.Fp02" />
-        <item itemvalue="Application.C04_Entry" />
       </list>
     </recent_temporary>
   </component>
