@@ -2,7 +2,7 @@ package lambda_functional_programing01.lambda_practice;
 
 public class Methodlarim {//seed (tohum) metodlar create edilidi
     public static void yazdir(Object obj){
-        System.out.print(obj+" ");
+        System.out.println(obj+" ");
 
     }
 
