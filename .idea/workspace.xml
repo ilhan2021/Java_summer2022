@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de681e0d-1d89-481b-8cc0-585d1cb4e24d" name="Changes" comment="Java ders notlari">
-      <change afterPath="$PROJECT_DIR$/src/lambda_functional_programing01/lambda_practice/Lambda01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda_functional_programing01/lambda_practice/Methodlarim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambda_functional_programing01/lambda_practice/Runner01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambda_02_DosyaOkuma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_functional_programing01/lambda_practice/C0_Lambda_Aciklamalar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_functional_programing01/lambda_practice/siirler" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_summer2022/lambda_functional_programing01/lambda_practice/Lambda01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_summer2022/lambda_functional_programing01/lambda_practice/Lambda01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_summer2022/lambda_functional_programing01/lambda_practice/Methodlarim.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_summer2022/lambda_functional_programing01/lambda_practice/Methodlarim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_summer2022/lambda_functional_programing01/lambda_practice/Runner01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_summer2022/lambda_functional_programing01/lambda_practice/Runner01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda_functional_programing01/lambda_practice/Lambda01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_functional_programing01/lambda_practice/Lambda01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda_functional_programing01/lambda_practice/Methodlarim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_functional_programing01/lambda_practice/Methodlarim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambda_functional_programing01/lambda_practice/Runner01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_functional_programing01/lambda_practice/Runner01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,20 +95,7 @@
       <recent name="day29_passByValue_immutable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Runner01">
-    <configuration name="Fp02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambda_functional_programing01.Fp02" />
-      <module name="Java_summer2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda_functional_programing01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Lambda_02_DosyaOkuma">
     <configuration name="Fp03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda_functional_programing01.Fp03" />
       <module name="Java_summer2022" />
@@ -142,6 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lambda_02_DosyaOkuma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lambda_02_DosyaOkuma" />
+      <module name="Java_summer2022" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambda_functional_programing01.lambda_practice.Runner01" />
       <module name="Java_summer2022" />
@@ -157,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lambda_02_DosyaOkuma" />
         <item itemvalue="Application.Runner01" />
         <item itemvalue="Application.Fp05" />
         <item itemvalue="Application.Fp04" />
         <item itemvalue="Application.Fp03" />
-        <item itemvalue="Application.Fp02" />
       </list>
     </recent_temporary>
   </component>

@@ -10,6 +10,21 @@ public class Runner01 extends Lambda01{
         System.out.println("*********************");
         elemanlariCarp(numbers);
         System.out.println("*********************");
+        tekSayilarinKarsiniBuyuktenKucugeSirala(numbers);
+        System.out.println("*********************");
+        sonHarfeGoreTersSira(menu);
+        System.out.println("*********************");
+        karakterSayiYedidenBuyuk(menu);
+        System.out.println("*********************");
+
+        System.out.println("*********************");
+        System.out.println("*********************");
+        System.out.println("*********************");
+        System.out.println("*********************");
+        System.out.println("*********************");
+        System.out.println("*********************");
+        System.out.println("*********************");
+
     }
 
 }
