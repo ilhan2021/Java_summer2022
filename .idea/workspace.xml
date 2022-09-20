@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de681e0d-1d89-481b-8cc0-585d1cb4e24d" name="Changes" comment="Java ders notlari" />
+    <list default="true" id="de681e0d-1d89-481b-8cc0-585d1cb4e24d" name="Changes" comment="Java ders notlari">
+      <change afterPath="$PROJECT_DIR$/src/Advantage_Java/enums/Ex01/Aylar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Advantage_Java/enums/Ex01/Ex01Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Advantage_Java/enums/Ex02/Ex02Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Advantage_Java/enums/generics/G01overloadingMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Advantage_Java/enums/generics/G02genericsMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Advantage_Java/enums/generics/G03nonGenericsClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Advantage_Java/enums/generics/G04genericClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Advantage_Java/enums/generics/G05genericClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Advantage_Java/enums/generics/G06doubleParameterGenerics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Advantage_Java/enums/generics/G07genericInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Advantage_Java/enums/generics/MultipleClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Advantage_Java/enums/generics/OutherInnerClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +70,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "C:/Users/Hamza/jdbc2022",
+    "last_opened_file_path": "C:/Users/Hamza/IdeaProjects/Java_summer2022",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
